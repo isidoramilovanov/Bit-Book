@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import { authService } from '../../service/authenticationService'
-import {Grid, Button} from 'semantic-ui-react';
+import {Grid} from 'semantic-ui-react';
 
 const Header = () => {
 

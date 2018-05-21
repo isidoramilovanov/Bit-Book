@@ -1,7 +1,6 @@
 import React from 'react';
-import { Tab, Container, Grid, Segment, Form, Button } from 'semantic-ui-react';
+import { Tab, Grid, Form, Button } from 'semantic-ui-react';
 import { authService } from '../../service/authenticationService';
-import ErrorComponent from '../sharedComponents/ErrorComponent';
 
 
 
@@ -45,7 +44,7 @@ class LoginAndRegister extends React.Component {
                 errorUsernameLog: 'Username is too long!'
             })
 
-        } else if (username == '') {
+        } else if (username === '') {
             this.setState({
                 errorUsernameLog: 'Username is missing!'
             })
@@ -70,7 +69,7 @@ class LoginAndRegister extends React.Component {
             this.setState({
                 errorPasswordLog: 'Password is too long'
             })
-        } else if (pass == '') {
+        } else if (pass === '') {
             this.setState({
                 errorPasswordLog: 'Password is missing!'
             })

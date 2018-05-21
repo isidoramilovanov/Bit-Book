@@ -318,7 +318,7 @@ class DataServices {
             method: 'PUT'
         })
             .then((response) => {
-                return response.json();
+                return response;
             })
             .then((data) => {
                 if (data.message) {

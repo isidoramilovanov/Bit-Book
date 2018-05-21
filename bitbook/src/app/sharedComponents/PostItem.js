@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container } from 'semantic-ui-react';
-import { Button } from 'semantic-ui-react';
 import Segment from 'semantic-ui-react/dist/commonjs/elements/Segment/Segment';
 
 
@@ -56,7 +55,7 @@ const PostItem = (props) => {
 
     } else {
         return <Container  className="ui card">
-            <iframe height="315" src={props.onePost.videoUrl} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
+            <iframe height="315" title="iframe" src={props.onePost.videoUrl} frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen></iframe>
             <div className="content">
                 
                     <span className="right floated">

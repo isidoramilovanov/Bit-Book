@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, Header, Button } from 'semantic-ui-react'
+import { Image, Header } from 'semantic-ui-react'
 
 const UserCard = (props) => {
 
